@@ -1,6 +1,6 @@
 {
 	"name": "str.db",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Simple flat file database for TypeScript",
 	"author": "Jhoan (znotjhoan@gmail.com)",
 	"license": "MIT",

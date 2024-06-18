@@ -1,0 +1,26 @@
+{
+	"name": "str.db",
+	"version": "1.0.0",
+	"description": "Simple flat file database for TypeScript",
+	"author": "Jhoan (znotjhoan@gmail.com)",
+	"license": "MIT",
+	"files": [
+		"dist"
+	],
+	"main": "dist/index.js",
+	"typings": "dist/index.d.ts",
+	"scripts": {
+		"build": "tsc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/devjhoan/str.db"
+	},
+	"devDependencies": {
+		"@types/bun": "latest",
+		"ts-node": "^10.9.2"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	}
+}

@@ -78,7 +78,7 @@ export interface Database {
  * @param options the options for connection.
  * @returns the database.
  */
-export async function connect(options: DatabaseOptions): Promise<Database> {
+export function connect(options: DatabaseOptions): Database {
   const {
     file,
     delay = 0,
@@ -96,7 +96,7 @@ export async function connect(options: DatabaseOptions): Promise<Database> {
 
   let data: JSONData;
   try {
-    data = JSON.parse(await databaseFile.read());
+    data = JSON.parse(databaseFile.read());
   } catch (error) {
     data = init;
   }
